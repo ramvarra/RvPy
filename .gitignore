@@ -1,0 +1,12 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.exe
+
+# mypy
+PACKAGE_CACHE/
+EXTRA_PACAKGES/
+
+.idea/
+
+.ipynb_checkpoints/

@@ -1,0 +1,44 @@
+# pip
+pip
+
+# databases
+pyodbc
+
+# crypt
+paramiko
+keyring
+pycrypto
+
+# elk
+elasticsearch
+elasticsearch_dsl
+
+
+# web/auth
+requests
+oauth2client
+geopy
+geoip2
+httpagentparser
+
+# AI/ML/Data Science
+seasonal
+python-constraint
+
+
+# other
+pint
+pytz
+xmltodict
+tzlocal
+python-memcached
+python-dateutil
+bigpanda
+ifaddr
+graphviz
+pandas-datareader
+clipboard
+jupyterlab
+
+# 3.7 need
+PyHamcrest

@@ -1,0 +1,43 @@
+# pip
+# pip
+
+# databases
+mysqlclient
+pyodbc
+
+# crypt
+paramiko
+keyring
+pycrypto
+
+# elk
+elasticsearch
+elasticsearch_dsl
+
+
+# web/auth
+requests
+oauth2client
+geopy
+geoip2
+httpagentparser
+
+# AI/ML/Data Science
+seasonal
+python-constraint
+tensorflow
+keras
+
+
+# other
+pint
+pytz
+xmltodict
+tzlocal
+python-memcached
+python-dateutil
+bigpanda
+ifaddr
+graphviz
+pandas-datareader
+clipboard
