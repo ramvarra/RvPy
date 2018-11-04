@@ -32,17 +32,17 @@ REM ECHO Uninstalling JypterLab
 REM pip uninstall -y jupyterlab
 
 REM UPGRADE PIP
-python -m pip install --force-reinstall --upgrade --no-index --find-links package_cache pip
+python -m pip install --force-reinstall --upgrade --no-index --find-links PACKAGE_CACHE pip
 
 ECHO Installing Extra Pkgs...
 FOR %%F in (EXTRA_PACKAGES\*.*) DO (
     ECHO.
     ECHO Installing %%F
     ECHO.
-    pip install --force-reinstall --upgrade --no-index --find-links package_cache %%F
+    pip install --force-reinstall --upgrade --no-index --find-links PACKAGE_CACHE %%F
 )
 
-ECHO Installing Python Packages requirements.txt from package_cache
+ECHO Installing Python Packages requirements.txt from PACKAGE_CACHE
 
 
 SET TMP_REQ=%TEMP%\requirements.tmp
@@ -50,7 +50,7 @@ PYTHON pycat.py requirements.txt > %TMP_REQ%
 
 FOR /F "TOKENS=*" %%L IN (%TMP_REQ%) DO (
     ECHO.
-	ECHO PIP Installing %%L from package_cache %%L
+	ECHO PIP Installing %%L from PACKAGE_CACHE %%L
     ECHO.
 
     PIP install %%L --upgrade --no-index --find-links package_cache

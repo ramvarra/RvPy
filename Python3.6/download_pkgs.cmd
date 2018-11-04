@@ -1,7 +1,7 @@
 @ECHO OFF
 
-REM Create PACKAGE_CACHE, EXTRA_PACAKGES Directories, if not present already
-FOR %%D IN (PACKAGE_CACHE EXTRA_PACAKGES) DO (
+REM Create PACKAGE_CACHE, EXTRA_PACKAGES Directories, if not present already
+FOR %%D IN (PACKAGE_CACHE EXTRA_PACKAGES) DO (
   IF NOT EXIST %%D (
     ECHO Creating Dir: %%D
     MKDIR %%D

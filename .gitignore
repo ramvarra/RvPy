@@ -4,8 +4,8 @@ __pycache__/
 *.exe
 
 # mypy
-PACKAGE_CACHE/
-EXTRA_PACAKGES/
+**/PACKAGE_CACHE/
+**/EXTRA_PACKAGES/
 
 .idea/
 
