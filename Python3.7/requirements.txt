@@ -33,7 +33,6 @@ xmltodict
 tzlocal
 python-memcached
 python-dateutil
-bigpanda
 ifaddr
 graphviz
 pandas-datareader
