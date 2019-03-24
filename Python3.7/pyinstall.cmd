@@ -3,7 +3,7 @@ REM -------------------------------------------------------------------------
 REM  Install Base Anaconda Python package
 REM -------------------------------------------------------------------------
 SET INSTALL_DIR=C:\Anaconda3
-set PYTHON_INSTALL_PKG=Anaconda3-5.3.0-Windows-x86_64.exe
+set PYTHON_INSTALL_PKG=Anaconda3-2018.12-Windows-x86_64.exe
 
 REM Check if we are Admin.
 
