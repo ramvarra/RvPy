@@ -18,7 +18,7 @@ FOR /F "TOKENS=*" %%L IN (extra_requirements.txt) DO (
     ECHO.
 	  ECHO PIP Downloading %%L to EXTRA_PACKAGES
     ECHO.
-    python -m pip download  %%L --dest PACKAGE_CACHE
+    python -m pip download  %%L --dest EXTRA_PACKAGES
 )
 
 ECHO Cleanup cache of older versions

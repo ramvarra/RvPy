@@ -11,7 +11,7 @@ files = os.listdir(sys.argv[1])
 clean_dict = {}
 to_drop = []
 for f in files:
-    m = re.findall(r'(.+\.\d+)(-|\.tar\.gz|\.zip)', f)
+    m = re.findall(r'(.+\.\d+)(-|\.tar\.gz|\.tar\.bz2|\.zip)', f)
     assert len(m) == 1 and len(m[0]) == 2, f"bad m {m} for file: {f}"
     pv = m[0][0]
     m = re.match(r'(?P<pkg>.+)-(?P<version>[\d.]+)$', pv)
