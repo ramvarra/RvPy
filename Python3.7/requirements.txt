@@ -25,6 +25,12 @@ httpagentparser
 seasonal
 python-constraint
 
+# needed for keras plotting
+# Pydot code need a fix as anaconda to ignore the extension
+# def get_executable_extension(): 
+#     return ''
+pydot
+
 
 # other
 pint
